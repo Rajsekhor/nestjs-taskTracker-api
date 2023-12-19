@@ -4,10 +4,10 @@ import { Injectable } from '@nestjs/common';
 export class AppService {
   getMain(): any {
     return {
-      name: 'todo-api',
+      name: 'task-tracker',
       version: '0.0.1',
-      description: 'An REST API with NESTJS and MONGODB',
-      author: 'Rajsekhor',
+      description: 'An REST API with NESTJS and MONGODB for a Task Tracker Application',
+      author: 'Rajsekhor Saikia',
     };
   }
 }
